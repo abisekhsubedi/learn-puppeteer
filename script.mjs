@@ -8,7 +8,7 @@ const uri = process.env.MONGO_URI;
     (async function () {
         const browser = await puppeteer.launch();
         const page = await browser.newPage();
-        await page.goto('https://www.daraz.com.np/products/apple-iphone-11-oliz-store-i107988223-s1029738541.html');
+        await page.goto(process.env.DARAZ);
 
         const title = await page.$eval('.pdp-mod-product-badge-title', el => el.innerText);
         const price = await page.$eval('.pdp-price', el => el.textContent);
