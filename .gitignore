@@ -1,0 +1,6 @@
+job.txt
+where.txt
+.env
+node_modules
+package-lock.json
+

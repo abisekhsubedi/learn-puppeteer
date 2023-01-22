@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "dev": "nodemon script.mjs"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "mongodb": "^4.13.0",
+        "puppeteer": "^19.5.2"
+    }
+}
